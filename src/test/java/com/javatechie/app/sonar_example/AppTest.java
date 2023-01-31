@@ -6,6 +6,7 @@ import junit.framework.TestSuite;
 import junit.framework.TestSuite;
 import junit.framework.TestSuite;
 import junit.framework.TestSuite;
+import junit.framework.TestSuite;
 /**
  * Unit test for simple App.
  */
@@ -37,11 +38,4 @@ public class AppTest extends TestCase {
 		a.getData();
 		assertTrue(true);
 	}
-	public class MyClass {
-  // ...
-
-  public Object clone() { // Noncompliant
-    //...
-  }
-}
 }
