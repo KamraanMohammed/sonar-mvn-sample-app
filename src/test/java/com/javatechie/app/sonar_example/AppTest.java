@@ -37,4 +37,11 @@ public class AppTest extends TestCase {
 		a.getData();
 		assertTrue(true);
 	}
+	public class MyClass {
+  // ...
+
+  public Object clone() { // Noncompliant
+    //...
+  }
+}
 }
